@@ -1,0 +1,12 @@
+version: 0.0
+os: linix
+files:
+   source: /
+   destination: /opt/myapp
+permissions:
+   object: /opt/myapp/startApp.sh
+   mode: 777
+hooks:
+   applicationStart:
+      location: startApp.sh
+      timeout: 10
