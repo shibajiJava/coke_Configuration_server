@@ -1,12 +1,12 @@
 version: 0.0
 os: linux
 files:
-   - source: /
+   source: /
    destination: /opt/myapp
 permissions:
-   - object: startApp.sh
+   object: startApp.sh
    mode: 777
 hooks:
    ApplicationStart:
-    - location: startApp.sh
-      timeout: 3600
+     location: startApp.sh
+     timeout: 3600
