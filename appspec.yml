@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /target/coke_configuration_server-0.0.1.jar
     destination: /opt/myapp
 hooks:
   ApplicationStart:
